@@ -1,12 +1,12 @@
 # Bitget Snipe Bot
 
 A powerful Telegram sniping bot for **Bitget** USDT-M futures.  
-The bot monitors selected Telegram channels for new token listings and automatically opens **LONG** (and in the future **SHORT**) positions with built-in risk management.
+The bot monitors selected Telegram channels for new token listings or delisting and automatically opens **LONG** /**SHORT** positions with built-in risk management.
 
 ## Features
 
 - Real-time monitoring of Telegram channels for listing signals
-- Automatic detection of tickers (formats: `(BTC)` or `COOKIEUSDT`)
+- Automatic detection of tickers (formats: `(BTC)` or `XXXUSDT`)
 - Opens **LONG** positions with isolated margin
 - Automatic Stop Loss at -50% and Take Profit at +100%
 - Continuous unrealized P&L updates every 2 seconds
@@ -28,5 +28,3 @@ The bot currently uses the following sources for detecting new listings:
 3. Add your sniping bot to that final chat (via BotFather setup).
 
 This setup ensures reliable and fast signal reception.
-
-## Project Structure
